@@ -152,8 +152,6 @@ img {
 .call-to-action {
     display: flex;
     margin: 120px;
-    margin-left: 300px;
-    margin-right: 300px;
     justify-content: space-around;
     gap: 200px;
     background-color: #3882F6;
@@ -169,6 +167,7 @@ img {
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
+    flex-wrap: wrap;
 }
 
 .cta-header {
